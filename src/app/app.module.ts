@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ColorTravelNewsComponent } from './color-travel-news/color-travel-news.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColorTravelNewsComponent
   ],
   imports: [
     BrowserModule
