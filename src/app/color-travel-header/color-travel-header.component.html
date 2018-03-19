@@ -1,0 +1,43 @@
+<div class="container">
+
+  <div class="top-part">
+
+    <span class="header-menu">
+      <a class="no-padding">О компании</a>
+      <a class="padding">Услуги</a>
+      <a class="padding">Корпоративный отдых</a>
+      <a class="padding">Контакты</a>
+    </span>
+
+    <span class="right-side">
+      <span class="drop-down-list">
+      <select>
+        <option value="UAH">UAH</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+      </span>
+
+
+      <img src="assets/images/icon-man.png" style="height: 10px; width: 10px;">
+       <a style="margin-left:10px;">Войти в кабинет</a>
+    </span>
+
+  </div>
+
+  <div class="bottom-part">
+
+    <img src="assets/images/logo.png" class="logo-image-border">
+
+    <ul class="statistics-list">
+      <li>{{hotels}}</li>
+      <li>{{responses}}</li>
+    </ul>
+
+    <div class="menu-container right-side" style="width: 10%" *ngFor="let item of items">
+      <app-menu-item [imgItem]="item.img" [title]="item.title"></app-menu-item>
+    </div>
+
+  </div>
+
+</div>

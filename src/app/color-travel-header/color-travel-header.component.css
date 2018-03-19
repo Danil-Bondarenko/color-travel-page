@@ -1,0 +1,57 @@
+* {
+  font-family: UltimaPro, monospace;
+}
+
+.container {
+  padding: 10px 40px 40px;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+a {
+  color: #0081d3;
+}
+
+.right-side {
+  float: right;
+}
+
+.drop-down-list {
+  border-right: 1px solid rgba(117, 130, 160, 0.3);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.header-menu, a {
+  padding-right: 20px;
+}
+
+.top-part {
+  padding-bottom: 35px;
+}
+
+.logo-image-border {
+  border-right: 1px solid rgba(117, 130, 160, 0.3);
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: left;
+  display: inline-block;
+}
+
+.statistics-list, ul {
+  list-style-type: none;
+  color: rgba(117, 130, 160, 0.6);
+  display: inline-block;
+}
+
+select, select:after {
+  border: none;
+  background-color: transparent;
+}
+
+
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ultima ProPro';
+    src: url("./UltimaPro.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Ultima ProLt';
+    src: url("./UltimaProLt.woff") format("woff");
+}
