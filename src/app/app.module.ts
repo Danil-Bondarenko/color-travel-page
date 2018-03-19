@@ -19,8 +19,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     MenuItemComponent,
     ContentContainerComponent,
     GalleryComponent,
-    HotelCardComponent,
-
+    HotelCardComponent
   ],
   imports: [
     BrowserModule,

@@ -26,17 +26,38 @@
   </div>
 
   <div class="bottom-part">
+    <span class="align-content">
+      <img src="assets/images/logo.png" class="logo-image-border">
 
-    <img src="assets/images/logo.png" class="logo-image-border">
 
-    <ul class="statistics-list">
-      <li>{{hotels}}</li>
-      <li>{{responses}}</li>
-    </ul>
+      <ul class="statistics-list">
+        <li>{{hotels}}</li>
+        <li>{{responses}}</li>
+      </ul>
 
-    <div class="menu-container right-side" style="width: 10%" *ngFor="let item of items">
+    </span>
+
+    <div class="phone-number align-content">
+      <img src="assets/images/phone.png" >
+      <ul>
+        <li>
+          <select>
+            <option value="0 800 40 81 70">0 800 40 81 70</option>
+            <option value="0 800 40 81 80">0 800 40 81 80</option>
+            <option value="0 800 40 81 90">0 800 40 81 90</option>
+          </select>
+        </li>
+        <li>
+          <a>Заказать обратный звонок</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-container align-content" *ngFor="let item of items">
       <app-menu-item [imgItem]="item.img" [title]="item.title"></app-menu-item>
     </div>
+
+    <button type="button" class="add-reply__button" >+ Добавить отзыв</button>
 
   </div>
 

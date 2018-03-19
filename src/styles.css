@@ -3,3 +3,13 @@
   font-family: UltimaPro;
   src: url(assets/fonts/ultima-pro/ultima-pro.woff);
 }
+
+@font-face {
+  font-family: Geometria-Bold;
+  src: url(assets/fonts/geometria/Geometria-Bold.woff);
+}
+
+@font-face {
+  font-family: Geometria-Medium;
+  src: url(assets/fonts/geometria/Geometria-Medium.woff);
+}

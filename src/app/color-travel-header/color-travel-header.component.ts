@@ -12,16 +12,16 @@ export class ColorTravelHeaderComponent implements OnInit {
   responses = 745 + ' отзывов';
   items = [
     {
-      img: 'assets/images/email.png',
-      title: 'Сообщения'
+      img: 'assets/images/menu-item-like.png',
+      title: 'Желания'
     },
     {
-      img: 'assets/images/comparison.png',
+      img: 'assets/images/menu-item-compare.png',
       title: 'Сравнения'
     },
     {
-      img: 'assets/images/favourite.png',
-      title: 'Желания'
+      img: 'assets/images/menu-item-messages.png',
+      title: 'Сообщения'
     }
 
   ];

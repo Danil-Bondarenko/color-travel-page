@@ -1,0 +1,18 @@
+.container {
+  padding: 10px 40px 40px;
+}
+
+.header {
+  font-family: Geometria-Medium, monospace;
+  width: 900px;
+}
+
+.under-header {
+  font-family: UltimaPro, monospace;
+}
+
+.article-holder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
