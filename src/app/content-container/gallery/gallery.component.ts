@@ -11,37 +11,42 @@ export class GalleryComponent implements OnInit {
 
   public arr = [
     {
-    img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
-    name: 'Data'
-  }, {
-    img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
-    name: 'Data'
-  },  {
-    img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
-    name: 'Data'
-  },  {
-    img: 'https://randomuser.me/api/portraits/men/53.jpg',
-    name: 'Data'
-  }];
-
-  // constructor: private getHotelCardData: GetHotelCardDataService
+      img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
+      name: 'Континентал',
+      location: 'Солнечный берег, Болгария',
+      price: '32 812 грн',
+      term: '8 дней'
+    }, {
+      img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
+      name: 'Континентал',
+      location: 'Солнечный берег, Болгария',
+      price: '32 812 грн',
+      term: '8 дней'
+    }, {
+      img: 'https://randomuser.me/api/portraits/med/men/53.jpg',
+      name: 'Континентал',
+      location: 'Солнечный берег, Болгария',
+      price: '32 812 грн',
+      term: '8 дней'
+    }, {
+      img: 'https://randomuser.me/api/portraits/men/53.jpg',
+      name: 'Континентал',
+      location: 'Солнечный берег, Болгария',
+      price: '32 812 грн',
+      term: '8 дней'
+    }, {
+      img: 'https://randomuser.me/api/portraits/men/53.jpg',
+      name: 'Континентал',
+      location: 'Солнечный берег, Болгария',
+      price: '32 812 грн',
+      term: '8 дней'
+    }
+  ];
 
   constructor() {
   }
 
   ngOnInit() {
-    // this.get();
   }
-
-  // public get() {
-  //   this.arr = this.getHotelCardData.getHotelCardData().subscribe(
-  //     data => {
-  //       this.arr = data;
-  //     },
-  //     error => {
-  //       console.log(error);
-  //     }
-  //   );
-  // }
 
 }

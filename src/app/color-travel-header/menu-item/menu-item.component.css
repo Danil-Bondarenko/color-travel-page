@@ -1,7 +1,13 @@
 .image {
+  position: relative;
   height: 35px;
   text-align: center;
   padding-right: 50px;
+}
+.counter {
+  position: absolute;
+  border-radius: 50%;
+  background: #1e7e34;
 }
 .text {
   text-align: center;

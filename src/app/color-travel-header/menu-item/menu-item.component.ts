@@ -1,4 +1,5 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, OnChanges, SimpleChanges} from '@angular/core';
+
 
 @Component({
   selector: 'app-menu-item',
@@ -7,13 +8,27 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class MenuItemComponent implements OnInit {
 
-  @Input() title;
-  @Input() imgItem;
+  @Input() dataValue;
+  value = 24;
+
+  // element = document.getElementsByClassName('counter') as HTMLCollectionOf<HTMLElement>;
+
 
   constructor() {
   }
 
-  ngOnInit() {
-  }
+  // ngOnChanges(changes: SimpleChanges) {
+  //   let i = 0;
+  //   for (let propName in changes) {
+  //     const cng = changes[propName];
+  //     this.pushValue(cng.currentValue.top, cng.currentValue.left);
+  //   }
+  //
+  // }
 
+  ngOnInit() {
+
+  }
 }
+
+

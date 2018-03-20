@@ -54,7 +54,7 @@
     </div>
 
     <div class="menu-container align-content" *ngFor="let item of items">
-      <app-menu-item [imgItem]="item.img" [title]="item.title"></app-menu-item>
+      <app-menu-item [dataValue]="item"></app-menu-item>
     </div>
 
     <button type="button" class="add-reply__button" >+ Добавить отзыв</button>

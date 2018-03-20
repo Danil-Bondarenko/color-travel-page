@@ -13,15 +13,21 @@ export class ColorTravelHeaderComponent implements OnInit {
   items = [
     {
       img: 'assets/images/menu-item-like.png',
-      title: 'Желания'
+      title: 'Желания',
+      top: '-6px',
+      left: '36px'
     },
     {
       img: 'assets/images/menu-item-compare.png',
-      title: 'Сравнения'
+      title: 'Сравнения',
+      top: '-4px',
+      left: '40px'
     },
     {
       img: 'assets/images/menu-item-messages.png',
-      title: 'Сообщения'
+      title: 'Сообщения',
+      top: '-8px',
+      left: '45px'
     }
 
   ];

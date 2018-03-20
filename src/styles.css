@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: Geometria;
+  src: url(assets/fonts/geometria/Geometria.woff);
+}
+
+@font-face {
   font-family: Geometria-Bold;
   src: url(assets/fonts/geometria/Geometria-Bold.woff);
 }

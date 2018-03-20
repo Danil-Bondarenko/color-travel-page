@@ -16,3 +16,21 @@
   padding-bottom: 20px;
   text-align: justify;
 }
+
+.switch-button {
+  width: 430px;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #595e7a;
+}
+
+.switch-button-left {
+  margin-right: 20px;
+}
+
+.switch-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
